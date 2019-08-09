@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Catamaran:400,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="lightbox/simplelightbox.min.css" />
+    <link rel="stylesheet" href="css/index.css" />
+    <title>HeadClouds</title>
+  </head>
+
+  <body>
+    <!-- header -->
+    <header>
+      <div
+        class="flex  justify-between items-center h-16 lg:px-40 md:px-30 px-10 py-4 "
+      >
+        <h1 class="lg:text-3xl text-2xl ">HeadClouds</h1>
+        <ul class="flex items-center m-0 ">
+          <li
+            class="mr-5 border-b-2 border-transparent  hover:border-gray-900  "
+          >
+            <a href="#home">Home</a>
+          </li>
+          <li class="border-b-2 border-transparent  hover:border-gray-900   ">
+            <a href="#about">About</a>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <!-- header -->
+
+    <!-- section -->
+    <div
+      class="flex lg:flex-row md:flex-row flex-col-reverse items-center lg:px-40 px-10 lg:py-8 py-4"
+    >
+      <div class="lg:w-1/2 w-full lg:text-left text-center ">
+        <h1 class="lg:text-5xl md:text-4xl text-2xl ">
+          The headphones of the future.
+        </h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat.
+        </p>
+        <button
+          class="bg-gray-900 hover:bg-black text-white py-2 px-6 mt-4 rounded-full capitalize "
+        >
+          read more
+        </button>
+      </div>
+      <div class="lg:w-1/2 w-full lg:m-0 m-3">
+        <img
+          class="w-full m-auto"
+          src="./images/design-screenshot6 - Copy.png"
+          alt="headphone-pic"
+        />
+      </div>
+    </div>
+    <!-- section -->
+
+    <div
+      id="about"
+      class="relative w-full lg:h-28 md:h-24 h-64  bg-cover bg-center "
+      style="  background-image: url('./images/hero-bg40.jpg')  "
+    >
+      <div
+        class="absolute top-0 left-0 w-full h-full bg-red lg:py-16 md:py-24 py-8 text-white "
+        style="background-color:rgba(0, 0, 0, 0.7)"
+      >
+        <div
+          class="absolute lg:w-2/3 w-4/5 text-center "
+          style=" top: 50%;
+          right: 50%; transform: translateX(50%) translateY(-50%);"
+        >
+          <h2 class="lg:text-3xl lg:block md:block hidden capitalize">
+            loud & clear
+          </h2>
+          <h1 class="lg:text-6xl md:text-5xl text-3xl capitalize font-semibold">
+            people aren't hearing all the music
+          </h1>
+          <p class="lg:text-xl md:text-xl text-sm ">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- grid system -->
+    <div>
+      <div class="gallery flex overflow-hidden h-56 lg:h-35 ">
+        <div class="w-2/5   h-auto overflow-hidden ">
+          <a href="./images/guy-headphones-man-1991492.jpg">
+            <img
+              class="w-full h-full object-cover "
+              src="./images/guy-headphones-man-1991492.jpg"
+              alt=""
+            />
+          </a>
+        </div>
+        <div class=" flex flex-col w-2/5 bg-gray-500 h-auto">
+          <div class="w-full w-1/2   overflow-hidden ">
+            <a href="./images/agency-work-04.jpg">
+              <img
+                class="w-full h-full object-cover "
+                src="./images/agency-work-04.jpg"
+                alt=""
+            /></a>
+          </div>
+          <div class="flex w-full h-full  overflow-hidden ">
+            <div class="w-1/2  h-auto overflow-hidden ">
+              <a href="./images/agency-work-01.jpg">
+                <img
+                  class="w-full h-full object-cover "
+                  src="./images/agency-work-01.jpg"
+                  alt=""
+              /></a>
+            </div>
+            <div class="w-1/2  h-auto overflow-hidden ">
+              <a href="./images/beautiful-cellphone-cute-761963.jpg">
+                <img
+                  class="w-full h-full object-cover "
+                  src="./images/beautiful-cellphone-cute-761963.jpg"
+                  alt=""
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="w-1/5  h-auto overflow-hidden ">
+          <a href="./images/casual-fashion-headphones-2614384.jpg">
+            <img
+              class="w-full h-full object-cover "
+              src="./images/casual-fashion-headphones-2614384.jpg"
+              alt=""
+            />
+          </a>
+        </div>
+      </div>
+    </div>
+    <!-- grid system -->
+
+    <!-- footer -->
+    <footer class="relative bg-gray-900 h-56  ">
+      <div
+        class="absolute flex lg:flex-row flex-col lg:w-3/5 w-4/5 m-auto text-white lg:text-left text-center "
+        style=" top: 50%;
+        right: 50%; transform: translateX(50%) translateY(-50%);"
+      >
+        <div class="lg:w-1/4 w-full h-auto px-2">
+          <h2 class="lg:text-2xl lg:block hidden ">Lorem Ipsum dolor sit</h2>
+          <div
+            class="flex mt-2 text-2xl text-gray-800 md:inline-flex inline-flex m-auto  "
+          >
+            <a href="#">
+              <i class="fab fa-twitter lg:mr-2 lg:ml-0 mr-2 ml-2 "></i
+            ></a>
+            <a href="#"> <i class="fab fa-youtube mr-2 "></i></a>
+            <a href="#"> <i class="fab fa-instagram mr-2 "></i></a>
+          </div>
+        </div>
+        <div class="lg:w-1/4 w-full lg:block hidden h-auto capitalize px-2 ">
+          <p class="font-semibold">company info</p>
+          <p><a href="#"> all product </a></p>
+          <p><a href="#"> about us </a></p>
+          <p><a href="#"> Privacy Policy </a></p>
+          <p><a href="#"> terms and conditions </a></p>
+        </div>
+        <div class="lg:w-1/4 w-full lg:block hidden h-auto capitalize px-2 ">
+          <h2 class="font-semibold">Blog post</h2>
+          <p><a href="#"> Lorem ipsum dolor </a></p>
+          <p><a href="#"> Lorem ipsum dolor </a></p>
+          <p><a href="#">Lorem ipsum dolor </a></p>
+          <p><a href="#"> Lorem ipsum dolor </a></p>
+        </div>
+        <div class="lg:w-1/4 w-full h-auto capitalize px-2  ">
+          <p class="font-semibold">subscribe</p>
+          <p>Lorem Ipsum dolor sit orem Ipsum dolor sit .</p>
+          <form
+            class="lg:w-full  m-auto mt-3 flex h-8 "
+            name="email-form"
+            method="POST"
+            data-netlify="true"
+          >
+            <input
+              class="w-4/5 bg-gray-800 h-full rounded-l-full px-3  "
+              type="email"
+              placeholder="E-mail"
+              name="email"
+              id="email"
+            />
+            <button
+              class="w-1/5 bg-gray-100 h-full  rounded-r-full text-gray-900 "
+              type="submit"
+            >
+              <i class="fas fa-chevron-right"></i>
+            </button>
+          </form>
+        </div>
+      </div>
+    </footer>
+
+    <div class="w-full text-center bg-gray-900 pb-8">
+      <p class="text-gray-400 text-sm">
+        Copyrights &copy; 2019 . Carew Olaonipekun. All Rights Reserved
+      </p>
+    </div>
+
+    <!-- footer -->
+
+    <!-- scripts -->
+    <script src="./lightbox/jquery-2.1.1.js"></script>
+    <script src="./lightbox/simple-lightbox.min.js"></script>
+    <script>
+      $(() => {
+        var gallery = $(".gallery a").simpleLightbox();
+      });
+    </script>
+    <!-- scripts -->
+  </body>
+</html>

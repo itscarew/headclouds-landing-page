@@ -1,0 +1,14 @@
+{
+  "name": "product-landing",
+  "version": "1.0.0",
+  "description": "A landing Page about a Fictional Headphone company",
+  "main": "index.js",
+  "author": "Carew Ola",
+  "license": "MIT",
+  "dependencies": {
+    "tailwindcss": "^1.1.0"
+  },
+  "scripts": {
+    "build:tailwind": "npx tailwind build src/css/tailwind.css -o src/css/index.css"
+  }
+}
